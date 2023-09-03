@@ -23,10 +23,7 @@ const Navbar = () => {
         </nav>
         <nav className="sub-nav w99">
           <a>
-            <i className="fas fa-search sub-nav-logo"></i>
-          </a>
-          <a>
-            <i className="fas fa-bell sub-nav-logo"></i>
+            <img src="./bull.png" width={60} alt="" />
           </a>
           <a>Account</a>
         </nav>
@@ -41,7 +38,7 @@ const Navbar = () => {
             />
           </div>
 
-          {first && (
+          {first ? (
             <div className="in-nav">
               <div>Home</div>
               <div>TV Shows</div>
@@ -51,7 +48,7 @@ const Navbar = () => {
               <div>My List</div>
               <div>Account</div>
             </div>
-          )}
+          ) : null}
         </div>
       </header>
     </div>

@@ -58,6 +58,7 @@ header {
   background-color: var(--primary);
   width: 100%;
   margin-bottom: 0px;
+  align-items: center;
 }
 
 .netflixLogo {
@@ -98,7 +99,9 @@ a {
   cursor: pointer;
 }
 .sub-nav {
-  grid-area: sb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding: 0 40px 0 40px;
 }
 

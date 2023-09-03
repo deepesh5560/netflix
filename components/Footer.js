@@ -3,18 +3,7 @@ const Footer = () => {
     <div>
       <section className="link">
         <div className="logos">
-          <a>
-            <i className="fab fa-facebook-square fa-2x logo"></i>
-          </a>
-          <a>
-            <i className="fab fa-instagram fa-2x logo"></i>
-          </a>
-          <a>
-            <i className="fab fa-twitter fa-2x logo"></i>
-          </a>
-          <a>
-            <i className="fab fa-youtube fa-2x logo"></i>
-          </a>
+          <img src="./media.png" width={200} alt="" />
         </div>
         <div className="sub-links">
           <ul>
